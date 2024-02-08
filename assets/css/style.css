@@ -1,4 +1,6 @@
 /* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,100&display=swap');
+
 body {
     background-color: black;
     color: white;
@@ -37,6 +39,13 @@ body {
     background-color: transparent;
 }
 
+.card-text {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px; /* Ajusta este valor según lo que desees */
+    /* Otras propiedades de estilo según sea necesario */
+  }
+  
+
 /* Estilos de las tarjetas transparentes */
 .transparent-card {
     background-color: rgba(255, 255, 255, 0);
@@ -55,10 +64,9 @@ body {
 
 /* Estilos del pie de página */
 footer {
-    background-color: #0DCAF0;
+    background-color: #DFF0D8;
     color: #fff;
     text-align: center;
-    padding: 15px;
 }
 
 /* Estilos de los iconos de redes sociales en el pie de página */
@@ -71,3 +79,5 @@ footer {
 .iconos-redes a:hover {
     color: #ddd;
 }
+
+/* Estilos para las flechas del carrusel */
